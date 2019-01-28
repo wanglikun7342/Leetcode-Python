@@ -6,8 +6,7 @@ class Solution:
         """
         for i in range(len(A)):
             A[i] = pow(A[i], 2)
-        A = sorted(A)
-        return A
+        return sorted(A)
 
 
 if __name__ == '__main__':
