@@ -28,5 +28,5 @@ class Solution:
 
 if __name__ == '__main__':
     equations = ["a==b","b==a"]
-    solution = Solution(26)
+    solution = Solution()
     print(solution.equationsPossible(equations))
